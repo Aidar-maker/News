@@ -1,0 +1,303 @@
+.navbar-brand img{
+    height: 140%;
+}
+nav form#search{
+    float: right;
+    padding: 0.5em;
+}
+nav form#search .glyphicon-search{
+    z-index: 99;
+    position: absolute;
+    right: 0.7em;
+    top: 50%;
+    margin-top: -0.44em;
+}
+
+nav form#search .input-group .form-control{
+    border-radius: 0.25em;
+}
+#nav-options{
+    margin: 0.5em;
+}
+#nav-options button.thumbnail{
+    margin: 0;
+    padding: 0;
+}
+#nav-options img{
+    max-height: 2.3em;
+    border-radius: 0.3em;
+}
+.navbar-default{
+    background-color: #000000;
+}
+.navbar-default .navbar-nav{
+    color: #000000;
+}
+.navbar-default{
+    background-color: #000000;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #FFF;
+}
+.navbar-default .navbar-nav > .active > a{
+    background-color: transparent;
+    color: #FFF;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #FFF;
+}
+.navbar-default{
+    background-color: #5c5c5c;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover{
+    color: #FFF;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    background-color: transparent;
+    color: #FFF;
+    padding-bottom: 0.42em;
+    border-bottom: 0.45em solid #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: transparent;
+    color: #f3f3f3;
+    padding-bottom: 0.62em;
+    border-bottom: 0.45em solid #f3f3f3;
+}
+.navbar-nav .badge{
+    color: black;
+    background-color: #FFF;
+    font-size: 0.7em;
+    padding:  0.27rem 0.55rem 0.2rem 0.4rem;
+    position: absolute;
+    left: 0.27rem;
+    top: 0.7rem;
+    z-index: 99;
+    border: 0.2rem solid #000000;
+}
+.navbar-header .navbar-toggle,
+.navbar-default .navbar-toggle:focus{
+    background-color: #5c5c5c;
+    border-color: #000;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: #5c5c5c;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #000;
+}
+@media(max-width:34em){
+    .navbar-default .navbar-nav > .active > a{
+        border-bottom: none;
+        border-left: 0.45em solid #FFF;
+        padding-left: 0.5em;
+    }
+}
+
+
+
+
+body{
+    padding-top: 5.5em;
+    background-color: #b0b0b0;
+}
+
+
+
+.card{
+    position: relative;
+    border: 0.1rem solid #e5e5e5;
+    border-radius: 0.4rem;
+    background-color: #FFF;
+}
+.card2{
+    border-radius: 0.4rem;
+    justify-content: center;
+    position: relative;
+    background-color: #FFF;
+}
+.card2 a{
+    text-decoration: none;
+    color: #000;
+}
+.card-img-top{
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+.card-block{
+    padding: 1.25rem;
+}
+.card-block img.card-img{
+    top: 50%;
+    margin-top: -36px;
+    width: 72px;
+    border: 3px solid #FFF;
+    border-radius: 0.4rem;
+    float: left;
+    position: relative;
+    z-index: 99;
+}
+.card-block .card-title{
+    float: left;
+    margin: 0;
+    margin-left: 0.5em;
+}
+.card-block .card-title small{
+    display: block;
+}
+.card-block .card-text{
+    clear: both;
+    padding-top: 0.25em;
+    margin-bottom: 1.5em;
+}
+.card-block ul a:hover{
+    text-decoration: none;
+}
+.card-block ul .profile-stats{
+    color:  #777;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.63em;
+}
+.card-block ul .profile-value{
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+}
+.card .card-header{
+    border-radius: 0.4rem 0.4rem 0 0;
+    padding: .75rem 1.25rem;
+    background-color: #f5f5f5;
+    border-bottom: 0.1em solid #e5e5e5;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+ul#feed{
+    margin: 0;
+}
+ul#feed li{
+    padding: 1em 1em;
+}
+#feed .feed-avatar{
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+}
+#feed .feed-avatar-2{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+#feed .feed-avatar-gl{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+ul#feed .feed-post{
+    width: 80%;
+    display: inline-block;
+    margin-left: 2%;
+}
+ul#feed .feed-post h5{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+ul#feed .feed-post h5 > small{
+    font-size: 1.2rem;
+}
+ul#feed .action-list{
+    margin-left: 13%;
+    padding-left: 1em;
+}
+ul#feed .action-list a{
+    width: 15%;
+    display: inline-block;
+}
+ul#feed .action-list .retweet-count{
+    padding-left: 0.2em;
+    font-weight: bold;
+}
+ul#feed li{
+    padding: 1em 1em;
+    border-bottom: 0.1rem solid #e5e5e5;
+}
+ul#feed li:last-child{
+    border-bottom: none;
+}
+div#who-follow li{
+    margin-bottom: 2em;
+}
+div#who-follow li:last-child{
+    margin-bottom: 0;
+}
+div#who-follow li img{
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2%;
+}
+div#who-follow li .info{
+    width: 68%;
+    display: inline-block;
+}
+div#who-follow li .info strong{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div#who-follow li .info .glyphicon{
+    color: #000000;
+}
+.card .card-footer{
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: .75rem 1.25rem;
+    background-color: #f5f5f5;
+    border-top: 0.1em solid #e5e5e5;
+    color: #4e5665;
+}
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+@media (max-width: 1200px) {
+    .section {
+        flex-direction: column;
+    }
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span{
+    background-color: #5c5c5c;
+    color: #000;
+}
+.pagination > li > a,
+.pagination > li > span{
+    color: #000;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    border-color: #5c5c5c;
+}
